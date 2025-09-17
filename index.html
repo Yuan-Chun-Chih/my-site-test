@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>台北開放資料自動更新站</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>台北開放資料自動更新站</h1>
+    <p>透過 GitHub Actions + <code>curl</code> 定時抓取 <a href="https://data.taipei" target="_blank" rel="noopener">台北市政府資料開放平台</a> API，並在此顯示。</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>最新資料（前 10 筆）</h2>
+      <div id="data"></div>
+      <p id="updated"></p>
+    </section>
+
+    <section class="card">
+      <h2>資料來源 API</h2>
+      <p><code id="apiUrl"></code></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>&copy; 2025 Your Name</small>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

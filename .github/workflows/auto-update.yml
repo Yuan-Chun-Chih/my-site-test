@@ -1,0 +1,32 @@
+name: Auto Update Taipei Open Data
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Taipei Data via cURL
+        run: |
+          set -euo pipefail
+          API_URL="https://data.taipei/api/v1/dataset/a78e318b-3553-417f-bc55-e816e909af30?scope=resourceAquire"
+          JSON=$(curl -sSL "$API_URL")
+          TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          echo "$JSON" | jq --arg ts "$TS" '. + {"_fetched_at": $ts}' > data.json
+          echo "Saved data.json with timestamp $TS"
+          head -n 20 data.json
+
+      - name: Commit & Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(data): auto-update from Taipei Open Data via curl"
+          file_pattern: data.json

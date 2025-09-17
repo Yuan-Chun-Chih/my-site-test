@@ -1,0 +1,8 @@
+{
+  "_note": "此檔案會由 GitHub Actions 以 curl 從 data.taipei API 自動更新",
+  "_fetched_at": "2025-09-17T05:55:20Z",
+  "result": {
+    "_fetched_at": "2025-09-17T05:55:20Z",
+    "notice": "首次部署占位資料。待 Actions 執行後會替換為 API 回傳內容。"
+  }
+}
