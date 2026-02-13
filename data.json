@@ -2,13 +2,13 @@
   "result": {
     "limit": 20,
     "offset": 0,
-    "count": 217,
+    "count": 172,
     "sort": "",
     "results": [
       {
         "_id": 1,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.617797",
+          "date": "2026-02-13 10:19:44.800775",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -21,7 +21,7 @@
       {
         "_id": 2,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.627852",
+          "date": "2026-02-13 10:19:44.813506",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -34,7 +34,7 @@
       {
         "_id": 3,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.629854",
+          "date": "2026-02-13 10:19:44.814911",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -47,7 +47,7 @@
       {
         "_id": 4,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.631598",
+          "date": "2026-02-13 10:19:44.816127",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -60,7 +60,7 @@
       {
         "_id": 5,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.633317",
+          "date": "2026-02-13 10:19:44.817500",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -73,7 +73,7 @@
       {
         "_id": 6,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.635033",
+          "date": "2026-02-13 10:19:44.818869",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -86,7 +86,7 @@
       {
         "_id": 7,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.636268",
+          "date": "2026-02-13 10:19:44.820342",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -99,7 +99,7 @@
       {
         "_id": 8,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.637670",
+          "date": "2026-02-13 10:19:44.821832",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -112,7 +112,7 @@
       {
         "_id": 9,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.638906",
+          "date": "2026-02-13 10:19:44.823232",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -125,7 +125,7 @@
       {
         "_id": 10,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.640190",
+          "date": "2026-02-13 10:19:44.824519",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -138,7 +138,7 @@
       {
         "_id": 11,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.641415",
+          "date": "2026-02-13 10:19:44.825715",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -151,7 +151,7 @@
       {
         "_id": 12,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.642688",
+          "date": "2026-02-13 10:19:44.826940",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -164,7 +164,7 @@
       {
         "_id": 13,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.643967",
+          "date": "2026-02-13 10:19:44.828347",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -177,7 +177,7 @@
       {
         "_id": 14,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.645120",
+          "date": "2026-02-13 10:19:44.829562",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -190,7 +190,7 @@
       {
         "_id": 15,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.646166",
+          "date": "2026-02-13 10:19:44.830928",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -203,7 +203,7 @@
       {
         "_id": 16,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.647316",
+          "date": "2026-02-13 10:19:44.832198",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -216,7 +216,7 @@
       {
         "_id": 17,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.648527",
+          "date": "2026-02-13 10:19:44.833579",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -229,7 +229,7 @@
       {
         "_id": 18,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.649909",
+          "date": "2026-02-13 10:19:44.834877",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -242,7 +242,7 @@
       {
         "_id": 19,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.651037",
+          "date": "2026-02-13 10:19:44.836010",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -255,7 +255,7 @@
       {
         "_id": 20,
         "_importdate": {
-          "date": "2026-01-07 13:46:18.652392",
+          "date": "2026-02-13 10:19:44.837348",
           "timezone_type": 3,
           "timezone": "Asia/Taipei"
         },
@@ -267,5 +267,5 @@
       }
     ]
   },
-  "_fetched_at": "2026-02-12T19:07:37Z"
+  "_fetched_at": "2026-02-13T02:37:33Z"
 }
